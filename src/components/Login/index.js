@@ -19,7 +19,7 @@ class Login extends Component {
     event.preventDefault();
     const { username, password } = this.state;
     const userDetails = { username, password };
-    const url = "http://localhost:3001/login";
+    const url = "https://users-api-sandy-phi.vercel.app/login";
     const options = {
       method: "POST",
       headers: {

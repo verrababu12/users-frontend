@@ -21,7 +21,7 @@ class Register extends Component {
     event.preventDefault();
     const { username, name, email, password } = this.state;
     const userDetails = { username, name, email, password };
-    const url = "http://localhost:3001/register";
+    const url = "https://users-api-sandy-phi.vercel.app/register";
     const options = {
       method: "POST",
       headers: {
